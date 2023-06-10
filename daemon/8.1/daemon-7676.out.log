@@ -1,0 +1,387 @@
+2023-06-10T19:44:24.283+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=RU, -Duser.language=ru, -Duser.variant]
+2023-06-10T19:44:24.504+0300 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2023-06-10T19:44:24.523+0300 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+2023-06-10T19:44:24.808+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2023-06-10T19:44:24.811+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2023-06-10T19:44:24.812+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2023-06-10T19:44:24.812+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2023-06-10T19:44:24.813+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2023-06-10T19:44:24.815+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.815+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)
+2023-06-10T19:44:24.817+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.817+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.0.124
+2023-06-10T19:44:24.817+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f6cf:5501:4162:c995%wlan0
+2023-06-10T19:44:24.817+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2023-06-10T19:44:24.819+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.819+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2023-06-10T19:44:24.821+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.822+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+2023-06-10T19:44:24.823+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.824+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:d5b8:287e:1d40:a333%wlan1
+2023-06-10T19:44:24.824+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter
+2023-06-10T19:44:24.826+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.826+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2023-06-10T19:44:24.829+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.829+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2023-06-10T19:44:24.831+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.831+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2023-06-10T19:44:24.833+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.833+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2023-06-10T19:44:24.834+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.835+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.836+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.837+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2023-06-10T19:44:24.839+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.839+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2023-06-10T19:44:24.841+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.841+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2023-06-10T19:44:24.844+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.845+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2023-06-10T19:44:24.847+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.847+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2023-06-10T19:44:24.849+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.849+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.852+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.852+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek USB GbE Family Controller
+2023-06-10T19:44:24.853+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.854+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2023-06-10T19:44:24.855+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.855+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+2023-06-10T19:44:24.857+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.858+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:62b7:7d1f:ab24:f389%wlan4
+2023-06-10T19:44:24.858+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)-Virtual WiFi Filter Driver-0000
+2023-06-10T19:44:24.861+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.862+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)-Native WiFi Filter Driver-0000
+2023-06-10T19:44:24.864+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.864+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.866+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.866+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6E AX1675s 160MHz Wireless Network Adapter (211NGW)-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.868+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.868+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+2023-06-10T19:44:24.869+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.869+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter-Hyper-V Virtual Switch Extension Filter-0000
+2023-06-10T19:44:24.870+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.871+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.872+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.873+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.874+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.874+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.876+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.876+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+2023-06-10T19:44:24.879+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.880+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.882+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.883+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Switch Extension Adapter
+2023-06-10T19:44:24.884+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.884+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.887+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.887+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter
+2023-06-10T19:44:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /172.27.192.1
+2023-06-10T19:44:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:3aec:b624:50f7:1b95%eth9
+2023-06-10T19:44:24.888+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.890+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.890+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.891+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.892+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Hyper-V Virtual Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.893+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.893+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.897+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.897+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.899+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.900+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.902+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.904+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.904+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2023-06-10T19:44:24.905+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.905+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2023-06-10T19:44:24.907+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2023-06-10T19:44:24.909+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]].
+2023-06-10T19:44:24.925+0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sat Jun 10 19:44:24 GMT+03:00 2023, with address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:44:24.925+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:44:24.925+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+2023-06-10T19:44:24.929+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+2023-06-10T19:44:24.942+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:44:24.950+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:44:24.956+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:44:24.957+0300 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2023-06-10T19:44:24.958+0300 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2023-06-10T19:44:24.966+0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2023-06-10T19:44:24.967+0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2023-06-10T19:44:24.968+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:44:24.981+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:64114 to /127.0.0.1:64113.
+2023-06-10T19:44:25.099+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.Build
+2023-06-10T19:44:25.099+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 28: Received non-IO message from client: Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:44:25.100+0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}.
+2023-06-10T19:44:25.100+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main} with connection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64114.
+2023-06-10T19:44:25.104+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64114] after 0.0 minutes of idle
+2023-06-10T19:44:25.104+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:44:25.104+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:44:25.105+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:44:25.106+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:44:25.107+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:44:25.107+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:44:25.108+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:44:25.109+0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}. Dispatching build started information...
+2023-06-10T19:44:25.109+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@5422b453
+2023-06-10T19:44:25.111+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, configsetroot, EFC_23932, PROCESSOR_LEVEL, POSTGIS_GDAL_ENABLED_DRIVERS, SESSIONNAME, ALLUSERSPROFILE, GDAL_DATA, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, POSTGIS_ENABLE_OUTDB_RASTERS, USERNAME, ProgramFiles(x86), FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OneDriveConsumer, PROJ_LIB, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, M2_HOME, ProgramFiles, PUBLIC, windir, =::, ZES_ENABLE_SYSMAN, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, OneDrive, APPDATA, CommonProgramFiles, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2023-06-10T19:44:25.117+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.CloseInput
+2023-06-10T19:44:25.117+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 28: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@17d61882
+2023-06-10T19:44:25.118+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-06-10T19:44:25.119+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 7676). The daemon log file: C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon\8.1\daemon-7676.out.log
+2023-06-10T19:44:25.120+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 2 GiB]
+2023-06-10T19:44:25.122+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2023-06-10T19:44:25.122+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+2023-06-10T19:44:25.123+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-06-10T19:44:25.123+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+
+BUILD SUCCESSFUL in 1m 40s
+2023-06-10T19:45:59.946+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-06-10T19:45:59.964+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:45:59.965+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64114]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@16552a3a with state Busy
+2023-06-10T19:45:59.966+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64114]
+2023-06-10T19:45:59.966+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:45:59.966+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:45:59.967+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:45:59.969+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:45:59.970+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:45:59.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:45:59.974+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:45:59.975+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@16f25a8b]
+2023-06-10T19:45:59.975+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@16f25a8b]
+2023-06-10T19:45:59.976+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=bffdef64-6ffb-47c6-98b2-7007f7c0b21a, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:45:59.978+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received class org.gradle.launcher.daemon.protocol.Finished
+2023-06-10T19:45:59.978+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 28: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@401bfc61
+2023-06-10T19:45:59.978+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@401bfc61
+2023-06-10T19:45:59.979+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:45:59.980+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-06-10T19:45:59.981+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 28: received null
+2023-06-10T19:45:59.981+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 28: Received end-of-input from client.
+2023-06-10T19:45:59.983+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:46:04.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:04.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:04.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:04.985+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:04.986+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:04.987+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:14.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:14.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:14.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:14.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:14.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:24.974+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:24.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:24.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:24.976+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:24.976+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:24.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:24.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:24.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:24.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:26.243+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:64894 to /127.0.0.1:64113.
+2023-06-10T19:46:26.249+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 168: received class org.gradle.launcher.daemon.protocol.Build
+2023-06-10T19:46:26.249+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 168: Received non-IO message from client: Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:46:26.249+0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}.
+2023-06-10T19:46:26.250+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main} with connection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64894.
+2023-06-10T19:46:26.250+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64894] after 0.0 minutes of idle
+2023-06-10T19:46:26.251+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:26.251+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:26.251+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:46:26.252+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:26.253+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:26.253+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:46:26.254+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:46:26.254+0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}. Dispatching build started information...
+2023-06-10T19:46:26.254+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@246d2788
+2023-06-10T19:46:26.255+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, configsetroot, EFC_23932, PROCESSOR_LEVEL, POSTGIS_GDAL_ENABLED_DRIVERS, SESSIONNAME, ALLUSERSPROFILE, GDAL_DATA, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, POSTGIS_ENABLE_OUTDB_RASTERS, USERNAME, ProgramFiles(x86), FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OneDriveConsumer, PROJ_LIB, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, M2_HOME, ProgramFiles, PUBLIC, windir, =::, ZES_ENABLE_SYSMAN, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, OneDrive, APPDATA, CommonProgramFiles, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2023-06-10T19:46:26.256+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 168: received class org.gradle.launcher.daemon.protocol.CloseInput
+2023-06-10T19:46:26.256+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 168: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@7981a9d2
+2023-06-10T19:46:26.257+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-06-10T19:46:26.257+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 7676). The daemon log file: C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon\8.1\daemon-7676.out.log
+2023-06-10T19:46:26.258+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 2nd build in daemon [uptime: 2 mins 1.907 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2023-06-10T19:46:26.259+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-06-10T19:46:26.259+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+2023-06-10T19:46:26.259+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2023-06-10T19:46:26.259+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+
+BUILD SUCCESSFUL in 801ms
+2023-06-10T19:46:27.062+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-06-10T19:46:27.079+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:46:27.079+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64894]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@16552a3a with state Busy
+2023-06-10T19:46:27.080+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:64894]
+2023-06-10T19:46:27.080+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:46:27.080+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:27.080+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:27.081+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:46:27.081+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:27.083+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:27.083+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@2734eed2]
+2023-06-10T19:46:27.083+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@2734eed2]
+2023-06-10T19:46:27.083+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:46:27.083+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=f89feaba-fb82-4165-8843-62822615ea6c, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:46:27.084+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 168: received class org.gradle.launcher.daemon.protocol.Finished
+2023-06-10T19:46:27.084+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 168: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@77465892
+2023-06-10T19:46:27.084+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@77465892
+2023-06-10T19:46:27.084+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-06-10T19:46:27.085+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 168: received null
+2023-06-10T19:46:27.085+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 168: Received end-of-input from client.
+2023-06-10T19:46:27.085+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:46:27.087+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:46:34.982+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:34.982+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:34.983+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:34.983+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:34.984+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:34.984+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:44.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:44.978+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:44.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:44.980+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:44.980+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:44.980+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:44.981+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:44.981+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:44.981+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:54.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:54.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:54.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:54.974+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:54.974+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:54.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:54.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:46:54.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:54.976+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:57.432+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:65062 to /127.0.0.1:64113.
+2023-06-10T19:46:57.436+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 212: received class org.gradle.launcher.daemon.protocol.InvalidateVirtualFileSystem
+2023-06-10T19:46:57.437+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 212: Received non-IO message from client: InvalidateVirtualFileSystem[id=3bdcfca7-82e9-480e-85c1-ef073a48516c]
+2023-06-10T19:46:57.437+0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: InvalidateVirtualFileSystem[id=3bdcfca7-82e9-480e-85c1-ef073a48516c].
+2023-06-10T19:46:57.437+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: InvalidateVirtualFileSystem[id=3bdcfca7-82e9-480e-85c1-ef073a48516c] with connection: socket connection from /127.0.0.1:64113 to /127.0.0.1:65062.
+2023-06-10T19:46:57.440+0300 [INFO] [org.gradle.launcher.daemon.server.api.HandleInvalidateVirtualFileSystem] Invalidating [C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\build.gradle]
+2023-06-10T19:46:57.441+0300 [DEBUG] [org.gradle.internal.vfs.impl.AbstractVirtualFileSystem] Invalidating VFS paths: [C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\build.gradle]
+2023-06-10T19:46:57.443+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:65067 to /127.0.0.1:64113.
+2023-06-10T19:46:57.443+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: dispatching Success[value=null]
+2023-06-10T19:46:57.444+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: InvalidateVirtualFileSystem[id=3bdcfca7-82e9-480e-85c1-ef073a48516c]
+2023-06-10T19:46:57.444+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 212: received class org.gradle.launcher.daemon.protocol.Finished
+2023-06-10T19:46:57.444+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 212: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@6facf90e
+2023-06-10T19:46:57.444+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@6facf90e
+2023-06-10T19:46:57.445+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:46:57.446+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-06-10T19:46:57.446+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 212: received null
+2023-06-10T19:46:57.446+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 212: Received end-of-input from client.
+2023-06-10T19:46:57.447+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 27: stopping connection
+2023-06-10T19:46:57.451+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 214: received class org.gradle.launcher.daemon.protocol.Build
+2023-06-10T19:46:57.451+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 214: Received non-IO message from client: Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:46:57.451+0300 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}.
+2023-06-10T19:46:57.451+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main} with connection: socket connection from /127.0.0.1:64113 to /127.0.0.1:65067.
+2023-06-10T19:46:57.451+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:65067] after 0.0 minutes of idle
+2023-06-10T19:46:57.451+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:57.452+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:46:57.452+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:46:57.453+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:46:57.454+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:46:57.454+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:46:57.454+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:46:57.454+0300 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}. Dispatching build started information...
+2023-06-10T19:46:57.454+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@3cfaefd7
+2023-06-10T19:46:57.456+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, configsetroot, EFC_23932, PROCESSOR_LEVEL, POSTGIS_GDAL_ENABLED_DRIVERS, SESSIONNAME, ALLUSERSPROFILE, GDAL_DATA, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, POSTGIS_ENABLE_OUTDB_RASTERS, USERNAME, ProgramFiles(x86), FPS_BROWSER_USER_PROFILE_STRING, PATHEXT, DriverData, OneDriveConsumer, PROJ_LIB, ProgramData, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, M2_HOME, ProgramFiles, PUBLIC, windir, =::, ZES_ENABLE_SYSMAN, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, FPS_BROWSER_APP_PROFILE_STRING, JAVA_HOME, OneDrive, APPDATA, CommonProgramFiles, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CommonProgramW6432, ComSpec, TEMP, SystemRoot, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS, IDEA_INITIAL_DIRECTORY]
+2023-06-10T19:46:57.456+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 214: received class org.gradle.launcher.daemon.protocol.CloseInput
+2023-06-10T19:46:57.456+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 214: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@282e697e
+2023-06-10T19:46:57.457+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2023-06-10T19:46:57.457+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 7676). The daemon log file: C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon\8.1\daemon-7676.out.log
+2023-06-10T19:46:57.457+0300 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 3rd build in daemon [uptime: 2 mins 33.106 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+2023-06-10T19:46:57.457+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2023-06-10T19:46:57.457+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=9d5f847e-75b9-42d4-8b15-27cd73b0994a,javaHome=C:\Program Files\Android\Android Studio\jbr,daemonRegistryDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\daemon,pid=7676,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=RU,-Duser.language=ru,-Duser.variant]
+2023-06-10T19:46:57.458+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] Closing daemon's stdin at end of input.
+2023-06-10T19:46:57.458+0300 [INFO] [org.gradle.launcher.daemon.server.exec.ForwardClientInput] The daemon will no longer process any standard input.
+
+BUILD SUCCESSFUL in 58s
+2023-06-10T19:47:55.683+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2023-06-10T19:47:55.705+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:47:55.706+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:65067]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@16552a3a with state Busy
+2023-06-10T19:47:55.706+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:64113 to /127.0.0.1:65067]
+2023-06-10T19:47:55.706+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2023-06-10T19:47:55.706+0300 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as idle, address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:47:55.707+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:47:55.709+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:47:55.710+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:47:55.712+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:47:55.713+0300 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@767c06de]
+2023-06-10T19:47:55.713+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 213: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@767c06de]
+2023-06-10T19:47:55.714+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2023-06-10T19:47:55.714+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=ef5181c6-87ea-459f-a833-a118ab0d8f58, currentDir=C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main}
+2023-06-10T19:47:55.942+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 214: received class org.gradle.launcher.daemon.protocol.Finished
+2023-06-10T19:47:55.942+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 214: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@26e9920b
+2023-06-10T19:47:55.942+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@26e9920b
+2023-06-10T19:47:55.942+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 213: stopping connection
+2023-06-10T19:47:55.943+0300 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2023-06-10T19:47:55.943+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 214: received null
+2023-06-10T19:47:55.943+0300 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 214: Received end-of-input from client.
+2023-06-10T19:47:55.945+0300 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 213: stopping connection
+2023-06-10T19:47:57.450+0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Lock on journal cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\journal-1) requested by another process - releasing lock.
+2023-06-10T19:47:57.450+0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\journal-1)
+2023-06-10T19:47:57.450+0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\journal-1\file-access.bin)
+2023-06-10T19:47:57.451+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\journal-1).
+2023-06-10T19:47:57.451+0300 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 59320 for lock with id 5221784764010891386.
+2023-06-10T19:47:57.452+0300 [DEBUG] [org.gradle.cache.internal.locklistener.FileLockCommunicator] Confirming lock release to Gradle process at port 59320 for lock with id 5221784764010891386.
+2023-06-10T19:48:04.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:04.973+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:04.974+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:04.974+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:04.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:04.975+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:14.976+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:14.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:14.977+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:14.979+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:14.980+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:14.982+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:14.982+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:14.983+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:14.984+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on daemon addresses registry.
+2023-06-10T19:48:14.985+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:14.985+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:14.986+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Storing daemon stop event: other compatible daemons were started and after being idle for 0 minutes and not recently used
+2023-06-10T19:48:14.989+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon stop event with timestamp 1686415694986
+2023-06-10T19:48:14.992+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:48:14.994+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:14.999+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:15.000+0300 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build other compatible daemons were started and after being idle for 0 minutes and not recently used
+2023-06-10T19:48:15.000+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to other compatible daemons were started and after being idle for 0 minutes and not recently used. The daemon is running a build: false
+2023-06-10T19:48:15.000+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2023-06-10T19:48:15.000+0300 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2023-06-10T19:48:15.001+0300 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2023-06-10T19:48:15.001+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:48:15.002+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:48:15.004+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:48:15.004+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:15.007+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2023-06-10T19:48:15.008+0300 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2023-06-10T19:48:15.014+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache jars (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\jars-9) was closed 4 times.
+2023-06-10T19:48:15.015+0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Artifact transforms cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\transforms-3)
+2023-06-10T19:48:15.015+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Artifact transforms cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\transforms-3).
+2023-06-10T19:48:15.017+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\transforms-3) was closed 11 times.
+2023-06-10T19:48:15.038+0300 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2023-06-10T19:48:15.040+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Generated Gradle JARs cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\generated-gradle-jars) was closed 0 times.
+2023-06-10T19:48:15.040+0300 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2023-06-10T19:48:15.042+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache artifact cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\modules-2) was closed 112 times.
+2023-06-10T19:48:15.043+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache journal cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\journal-1) was closed 44 times.
+2023-06-10T19:48:15.044+0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\fileHashes)
+2023-06-10T19:48:15.045+0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\fileHashes\fileHashes.bin)
+2023-06-10T19:48:15.045+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\fileHashes).
+2023-06-10T19:48:15.046+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache file hash cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\fileHashes) was closed 20 times.
+2023-06-10T19:48:15.047+0300 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\executionHistory)
+2023-06-10T19:48:15.047+0300 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache executionHistory.bin (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\executionHistory\executionHistory.bin)
+2023-06-10T19:48:15.047+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\executionHistory).
+2023-06-10T19:48:15.048+0300 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache execution history cache (C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches\8.1\executionHistory) was closed 12 times.
+2023-06-10T19:48:15.073+0300 [DEBUG] [org.gradle.cache.internal.VersionSpecificCacheCleanupAction] Processed version-specific caches at C:\Users\romse\Desktop\mob\WeatherApp\WeatherApp-main\caches for cleanup in 0.022 secs
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2023-06-10T19:48:15.085+0300 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [29b9d97e-b6c7-4026-8fe3-1827e1bdb03e port:64113, addresses:[localhost/127.0.0.1]]
+2023-06-10T19:48:15.086+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2023-06-10T19:48:15.087+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2023-06-10T19:48:15.090+0300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
